@@ -23,8 +23,11 @@ Runs fully offline with Ollama
 🎛️ Customizable settings (model, temperature, max contexts)
 
 📦 Installation & Setup
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/siratchauhan/RagBotX.git
+
 cd RagBotX
 
 2️⃣ Create a Virtual Environment
