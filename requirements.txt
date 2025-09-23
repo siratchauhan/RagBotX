@@ -1,0 +1,10 @@
+streamlit
+requests
+langchain
+pyvis
+networkx
+plotly
+faiss-cpu
+rank_bm25
+python-dotenv
+langchain-ollama
