@@ -57,12 +57,19 @@ ollama pull nomic-embed-text
 Create a .env file in the project root:
 
 LLM_API_URL=http://localhost:11434
+
 DEFAULT_MODEL=qwen2:0.5b
+
 EMBEDDINGS_MODEL=nomic-embed-text
+
 ENABLE_HYDE=true
+
 ENABLE_RERANKING=true
+
 ENABLE_GRAPH_RAG=true
+
 TEMPERATURE=0.7
+
 MAX_CONTEXTS=3
 
 6️⃣ Run Ollama
@@ -100,7 +107,7 @@ Pull requests, feature ideas, and bug reports are welcome!
 
 ⚡ Demo Preview
 
-(Add a GIF or screenshot here)
+
 
 🔗 Repo: https://github.com/siratchauhan/RagBotX
 
