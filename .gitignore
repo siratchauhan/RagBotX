@@ -1,4 +1,6 @@
-﻿# Python
+﻿# Complete version for your RAG project
+@"
+# Python
 venv/
 __pycache__/
 *.pyc
@@ -7,6 +9,11 @@ __pycache__/
 .Python
 env/
 .env
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
 
 # IDE
 .vscode/
@@ -18,13 +25,54 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project specific
+# Project specific - RAG Chatbot
 temp_docs/
+uploads/
+cache/
+models/
+embeddings/
+*.pdf
+*.docx
+*.txt
+*.csv
+
+# Large files
 *.lib
 *.dll
 *.exe
-
-# Large files
 *.pth
 *.bin
 *.dat
+*.safetensors
+*.h5
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+
+# Environment
+.env.local
+.env.production
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
+
+Write-Host "Created comprehensive .gitignore for RAG project"
