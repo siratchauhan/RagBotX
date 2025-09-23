@@ -108,6 +108,7 @@ Ollama generates final answers, with context + memory
 
 Pull requests, feature ideas, and bug reports are welcome!
 
+demo link- https://youtu.be/50EjhOkvurk
 
 🔗 Repo: https://github.com/siratchauhan/RagBotX
 
